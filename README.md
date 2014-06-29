@@ -1,4 +1,4 @@
-Neutron-Editor
+Neutron Editor
 ==============
 
 A real hackable editor. Run using node-webkit. 
