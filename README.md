@@ -1,7 +1,7 @@
 Neutron Editor
 ==============
 
-A real hackable editor. Run using node-webkit. 
+A real hackable editor. Built using node-webkit. 
 
 ![](http://i.imgur.com/ZFoXTzJ.png)
 
