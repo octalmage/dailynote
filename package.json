@@ -1,0 +1,10 @@
+{
+  "name": "Neutron Editor",
+  "main": "index.html",
+   "window": 
+   {
+    "title": "Neutron Editor",
+    "toolbar": false,
+    "frame": true
+    }
+}

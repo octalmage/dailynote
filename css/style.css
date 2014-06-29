@@ -1,0 +1,18 @@
+body
+{
+    background-color:#23251e;
+    margin:0px;
+    padding:0px;
+    color:#dddddd;
+}
+
+
+#editor 
+{ 
+    position: absolute;
+    top: 22px;
+    right: 0;
+    bottom: 0px;
+    left: 0px;
+}
+

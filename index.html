@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Neutron Editor</title>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script type="text/javascript" src="js/start.js"></script>
+</head>
+
+<body>
+
+<div id="editor">//Load a file into the editor.
+var fs = require('fs'), editor;
+
+fs.readFile("text.txt", 'utf8', function(err, data)
+{
+    editor.setValue(data);
+    editor.selection.clearSelection();
+});</div>
+
+    <script src="src/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        editor = ace.edit("editor");
+        editor.setTheme("ace/theme/monokai");
+        editor.getSession().setMode("ace/mode/javascript");
+        editor.setShowPrintMargin(false);
+    </script>
+
+</body>
+
+</html>
