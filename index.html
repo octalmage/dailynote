@@ -2,29 +2,26 @@
 <html lang="en">
 
 <head>
-    <title>Neutron Editor</title>
+    <title>DailyNote</title>
 
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    
     <script type="text/javascript" src="js/start.js"></script>
 </head>
 
 <body>
 
-<div id="editor">//Load a file into the editor.
-var fs = require('fs'), editor;
+<div id="editor"></div>
 
-fs.readFile("text.txt", 'utf8', function(err, data)
-{
-    editor.setValue(data);
-    editor.selection.clearSelection();
-});</div>
-
-    <script src="src/ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="src/ace.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript">
         editor = ace.edit("editor");
+        //editor.setTheme("ace/theme/github");
         editor.setTheme("ace/theme/monokai");
-        editor.getSession().setMode("ace/mode/javascript");
+        editor.getSession().setMode("ace/mode/markdown");
         editor.setShowPrintMargin(false);
+        
+        window.startup();
     </script>
 
 </body>

@@ -1,10 +1,12 @@
 {
-  "name": "Neutron Editor",
+  "name": "dailynote",
   "main": "index.html",
-   "window": 
-   {
-    "title": "Neutron Editor",
+  "window": {
+    "title": "DailyPad",
     "toolbar": false,
     "frame": true
-    }
+  },
+  "dependencies": {
+    "configstore": "^1.4.0"
+  }
 }
