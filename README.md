@@ -1,8 +1,4 @@
-Neutron Editor
+DailyNote
 ==============
 
-A real hackable editor. Built using node-webkit. 
-
-![](http://i.imgur.com/ZFoXTzJ.png)
-
-Examples coming soon. 
+A daily scratchpad with autosave. Keep and look up your old notes!
